@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.CVBuilder" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme colors -->
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryVariant">#7B1FA2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#A5D6A7</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

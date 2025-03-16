@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cvbuilder">
+
+    <application
+        android:allowBackup="true"
+        android:label="CV Builder"
+        android:theme="@style/Theme.CVBuilder">
+        <activity
+            android:name=".CVPreviewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ReferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CertificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExperienceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EducationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ProfileActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/etCertName" android:hint="Certification Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etIssuedBy" android:hint="Issued By" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnSave" android:text="Save" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnCancel" android:text="Cancel" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
